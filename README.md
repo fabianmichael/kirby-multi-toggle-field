@@ -73,6 +73,10 @@ level:
 - Kirby 3.3+
 - PHP 7.3+
 
+## Caveats
+
+The field layout could lead to problems on very small screens. The developer is responsible for not adding too many options. One solution could be to collapse the field on mobile or replacing it with a select box, when not enough space is available.
+
 ## License
 
 This plugin is licensed under the MIT license with the exception of the included icons from the Nucleo set. See src/index.js for further information on the icons’ license.
