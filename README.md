@@ -1,6 +1,6 @@
 # Multi-Toggle field for Kirby 3
 
-An exploration of a new UI element/field for Kirby CMS, resembling the multi-toggles ususally found in desktop software for things, such as text alignment and various other settings.
+An exploration of a new UI element/field for Kirby CMS, resembling the multi-toggles ususally found in desktop software for things, such as text alignment and various other settings. Could especially be useful for the blocks/layout fields, because it’s way more compact and visually appearing, than radio buttons. Could also be a handy alternative for the select field in many cases, because it requires only one click to select an option and all options are visible at first glance.
 
 Unlike most Kirby fields, the multi-toggle does not cover the whole available width, to give it a lighter appearance. But it has a min-height set, so it won’t look weird, when placed next to another field in a multi-column layout.
 
