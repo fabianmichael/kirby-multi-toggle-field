@@ -1,0 +1,15 @@
+{
+    "name": "fabianmichael/multi-toggle-field",
+    "description": "Toggle field with multiple options",
+    "type": "kirby-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Fabian Michael",
+            "email": "hallo@fabianmichael.de"
+        }
+    ],
+    "require": {
+        "getkirby/composer-installer": "^1.1"
+    }
+}
