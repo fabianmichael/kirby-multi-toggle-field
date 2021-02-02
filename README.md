@@ -70,7 +70,7 @@ level:
 
 ## System Requirements
 
-- Kirby 3.3+
+- Kirby 3.5+
 - PHP 7.3+
 
 ## Caveats
