@@ -1,7 +1,7 @@
 /* global panel */
 
-import MultiToggleField from "./components/Field/MultiToggleField.vue";
-import MultiToggleInput from "./components/Input/MultiToggleInput.vue";
+import MultiToggleField from "./components/MultiToggleField.vue";
+import MultiToggleInput from "./components/MultiToggleInput.vue";
 
 panel.plugin("fabianmichael/multi-toggle-field", {
   components: {

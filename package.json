@@ -1,19 +1,12 @@
 {
   "scripts": {
-    "dev": "parcel watch src/index.js --no-source-maps -d ./",
-    "build": "parcel build src/index.js --no-source-maps --experimental-scope-hoisting -d ./"
-  },
-  "posthtml": {
-    "recognizeSelfClosing": true
+    "dev": "npx -y kirbyup src/index.js --watch",
+    "build": "npx -y kirbyup src/index.js"
   },
   "devDependencies": {
-    "@babel/core": "^7.12.10",
-    "@vue/component-compiler-utils": "^3.2.0",
-    "vue-template-compiler": "^2.6.12"
+    "kirbyup": "^0.21.1"
   },
   "dependencies": {
-    "vue": "^2.6.12",
-    "vue-hot-reload-api": "^2.3.4",
     "vuelidate": "^0.7.6"
   }
 }
