@@ -2,7 +2,7 @@
   <div
     :data-show-text-label="textLabels ? '' : false"
     :style="'--options:' + options.length"
-    class="k-multi-toggle-input"
+    :class="{'k-multi-toggle-input': true, 'k-multi-toggle-input--equalize': equalize}"
   >
     <ul>
       <li
@@ -35,7 +35,7 @@
       </li>
     </ul>
     <k-button
-      v-if="value && reset  && !required"
+      v-if="value && reset && !required"
       @click="onReset()"
       :tooltip="$t('fabianmichael.multi-toggle.reset')"
     ><k-icon type="undo" /></k-button>
@@ -60,6 +60,7 @@ export default {
     required: Boolean,
     textLabels: Boolean,
     reset: Boolean,
+    equalize: Boolean,
     value: [String, Number, Boolean],
   },
   watch: {
@@ -106,16 +107,21 @@ export default {
 .k-multi-toggle-input {
   --border-radius: 3px;
   --color-focus-text-light: #a1b7d3;
+  --col-width: auto;
 
   display: inline-flex;
   line-height: 1;
+}
+
+.k-multi-toggle-input--equalize {
+  --col-width: 1fr;
 }
 
 .k-multi-toggle-input ul {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius);
   display: inline-grid;
-  grid-template-columns: repeat(var(--options), 1fr);
+  grid-template-columns: repeat(var(--options), var(--col-width));
   overflow: hidden;
   text-align: center;
 }

@@ -19,12 +19,13 @@ export default {
   props: {
     label: String,
     options: Array,
-    textLabels: Boolean, 
+    textLabels: Boolean,
     value: String,
     help: String,
     disabled: Boolean,
     required: Boolean,
     reset: Boolean,
+    equalize: Boolean,
   },
 
   methods: {

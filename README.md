@@ -16,6 +16,7 @@ textAlign:
   label: Text alignment
   textLabels: true
   required: true # reset button is automatically disabled, when field is required
+  equalize: true # Equalize items’ widths (default: true)
   options:
     - value: normal
       text: Left
@@ -35,6 +36,7 @@ width:
   type: multi-toggle
   label: Width
   textLabels: true
+  equalize: false # Disable equalization of item widths
   reset: false # reset button can also be disabled for non-required fields.
   options:
     third: 33%

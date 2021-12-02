@@ -21,6 +21,9 @@ Kirby::plugin('fabianmichael/multi-toggle-field', [
                 },
                 'reset' => function (bool $reset = true) {
                     return $reset;
+                },
+                'equalize' => function (bool $equalize = true) {
+                    return $equalize;
                 }
             ],
             'computed' => [
