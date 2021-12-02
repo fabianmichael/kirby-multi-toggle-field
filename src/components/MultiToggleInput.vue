@@ -37,7 +37,8 @@
     <k-button
       v-if="value && reset  && !required"
       @click="onReset()"
-    >{{ $t('fabianmichael.multi-toggle.reset') }}</k-button>
+      :tooltip="$t('fabianmichael.multi-toggle.reset')"
+    ><k-icon type="undo" /></k-button>
   </div>
 </template>
 
@@ -157,13 +158,12 @@ export default {
 .k-multi-toggle-input label {
   align-items: center;
   background: #fff;
-  box-sizing: content-box;
   cursor: pointer;
   display: flex;
   font-size: var(--font-size-small);
   justify-content: center;
   line-height: 1.25rem;
-  min-height: 1.25rem;
+  height: 100%;
   padding: .5rem .75rem;
 }
 
