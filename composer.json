@@ -3,7 +3,6 @@
     "description": "Toggle field with multiple options",
     "type": "kirby-plugin",
     "license": "MIT",
-    "version": "1.0.0",
     "authors": [
         {
             "name": "Fabian Michael",

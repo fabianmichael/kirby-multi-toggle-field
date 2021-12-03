@@ -2,7 +2,7 @@
 
 use Kirby\Cms\App as Kirby;
 
-Kirby::plugin('fabianmichael/multi-toggle-field', [
+Kirby::plugin('fabianmichael/kirby-multi-toggle-field', [
     'fields' => [
         'multi-toggle' => [
             'mixins' => ['options'],
