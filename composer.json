@@ -3,6 +3,7 @@
     "description": "Toggle field with multiple options",
     "type": "kirby-plugin",
     "license": "MIT",
+    "version": "1.0.0",
     "authors": [
         {
             "name": "Fabian Michael",
@@ -11,5 +12,8 @@
     ],
     "require": {
         "getkirby/composer-installer": "^1.1"
+    },
+    "config": {
+        "optimize-autoloader": true
     }
 }
