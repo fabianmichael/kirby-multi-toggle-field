@@ -1,5 +1,5 @@
 {
-    "name": "fabianmichael/multi-toggle-field",
+    "name": "fabianmichael/kirby-multi-toggle-field",
     "description": "Toggle field with multiple options",
     "type": "kirby-plugin",
     "license": "MIT",
