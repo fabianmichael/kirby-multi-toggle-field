@@ -6,6 +6,14 @@ Unlike most Kirby fields, the multi-toggle does not cover the whole available wi
 
 ![Field preview](preview.gif)
 
+## Installation
+
+Either download this repo, extract and copy into `site/plugins` or install using composer:
+
+```bash
+composer require fabianmichael/kirby-multi-toggle-field
+```
+
 ## Blueprint usage
 
 ```yaml
