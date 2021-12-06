@@ -2,6 +2,7 @@
     "name": "fabianmichael/kirby-multi-toggle-field",
     "description": "Toggle field with multiple options",
     "type": "kirby-plugin",
+    "version": "1.0.2
     "license": "MIT",
     "authors": [
         {
