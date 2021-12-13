@@ -104,6 +104,10 @@ export default {
 
 <style lang="scss">
 
+.k-field[data-disabled] .k-multi-toggle-input {
+  opacity: .5;
+}
+
 .k-multi-toggle-input {
   --border-radius: 3px;
   --color-focus-text-light: #a1b7d3;
