@@ -2,7 +2,7 @@
     "name": "fabianmichael/kirby-multi-toggle-field",
     "description": "Toggle field with multiple options",
     "type": "kirby-plugin",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "license": "MIT",
     "authors": [
         {
@@ -13,6 +13,9 @@
     "require": {
         "php": ">=8.0",
         "getkirby/composer-installer": "^1.1"
+    },
+    "extra": {
+        "installer-name": "multi-toggle-field"
     },
     "config": {
         "optimize-autoloader": true
