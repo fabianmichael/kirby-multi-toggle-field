@@ -1,3 +1,5 @@
+<table><tr><td>ℹ️ The multi-toggle field will become part of Kirby’s core from 3.7 onwards, called `toggles` field. This repository will be aarchived once the final version of Kirby 3.7 has been released. <a href="https://github.com/getkirby/kirby/releases/tag/3.7.0-rc.1">Read the announcement by the Kirby team</a></table>
+
 # Multi-Toggle field for Kirby 3
 
 An exploration of a new UI element/field for Kirby CMS, resembling the multi-toggles ususally found in desktop software for things, such as text alignment and various other settings. Could especially be useful for the blocks/layout fields, because it’s way more compact and visually appearing, than radio buttons. Could also be a handy alternative for the select field in many cases, because it requires only one click to select an option and all options are visible at first glance.
